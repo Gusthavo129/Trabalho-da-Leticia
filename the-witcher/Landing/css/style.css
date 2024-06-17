@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Algerian      
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+div img {
+    display: block;
+    width: 100%;
+}
+
+.imgEducacao{
+    width: 120px;
+}
+
+.box{
+    margin: 2px
+}
+.flex-container{
+    color: red;
+    display: flex;
+    max-width: 992px;
+    margin: auto;
+    width: 100%;
+    min-width: 320px;
+    
+}
+
+header{
+    background-color: rgba(7, 7, 15, 0.88);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+header .list-items{
+    display: flex;
+    max-width: 260px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.list-items li a {
+    color: red;
+}
+
+header .menu{
+    justify-content: space-between;
+}
+
+.apresentacao{
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao .texto-apresentacao{
+    min-height: 200px;
+    
+}
+
+.texto-apresentacao h1{
+   color: rgba(7, 7, 15, 0.88);
+   font-size: 48px;
+   margin-bottom: 10px;
+   text-shadow: 50px;
+}
+
+.btn{
+  background-color: rgba(7, 7, 15, 0.88);
+  color: #2f0592;
+  text-align: center;
+  border-radius: 30px;
+  width: 220px;
+  display: block;
+  text-decoration: none;
+  height: 50px;
+  line-height: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.foto{
+    height: 500px;
+    width: 500px;
+    margin: auto;
+}
+
+#Livros {
+    flex-direction: row-reverse;  
+    align-items: center;
+    justify-content: space-between;
+}
+
+#Livros h2{
+    font-size: 32px;
+    color: rgba(7, 7, 15, 0.88);
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#Livros h2::before{
+    content: "";
+    height: 45px;
+    width: 3px;
+    margin-right: 5px;
+    background-color: rgba(7, 7, 15, 0.88);
+    position: relative;
+}
+
+#Livros p {
+    margin-bottom: 30px;
+    width: 80%;
+}
+
+#Livros img {
+  min-width: 420px ;
+  margin-bottom: 110px;
+}
+
+.container-externo {
+    background-color: rgba(7, 7, 15, 0.88);
+    width: 100%;
+    height: 600px;
+}
+
+#Jogos{
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 160px;
+}
+
+#Jogos h2{
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.list-servicos{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.list-servicos .item-servico{
+    text-align: center;
+}
+
+.item-servico a{
+    width: 220px;
+    background-color: #fff;
+    border-radius: 30px;
+    height: 50px;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 50px;
+    padding: 5px 10px;
+    color: rgba(12, 12, 245, 0.88);
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.item-servico p{
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 20px;
+    
+}
+
+.item-servico img{
+    width: 80%;
+    margin: auto;
+
+}
+.item-servico-- img{
+    width: 45%;
+    margin: auto;
+
+}
+.the3{
+    width: 180px;
+    height: 350px;
+    margin: auto;
+}
+
+footer{
+    color: rgb(21, 17, 17);
+    text-align: center;   
+    
+}
+
+#série {
+    
+    background-color: #fff;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-top: 50px;
+
+}
+
+#série h2{
+    color:  rgb(21, 17, 17);
+    font-size: 32px;
+}
+
+.list-planos{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.item-plano{
+    flex: 1;
+    border: 3px solid rgba(7, 7, 15, 0.88);
+    margin-right: 20px;
+    padding: 10px;
+    max-width: 240px;
+    
+}
+
+.item-plano .btn{
+   margin: auto;
+   margin-bottom: 20px;
+}
+
+.item-plano h3{
+    color: gray;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.item-plano h3::after{
+    content: "";
+    background-color: #dddfe3;
+    width: 100%;
+    height: 3px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.item-plano ul{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.item-plano ul li {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;  
+}
+
+.item-plano ul li::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: rgb(95, 88, 88);
+    margin-right: 5px;
+
+
+}
+
+footer {
+    background-color: rgb(95, 88, 88);
+    height: 70px;
+    display: flex;
+    align-items: center;
+
+}
+
+footer .footer {
+    justify-content: space-between;
+    color: #fff;
+
+}
